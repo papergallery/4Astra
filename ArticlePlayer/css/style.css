@@ -1,0 +1,1720 @@
+.longread-wrapper { overflow: hidden; }
+.longread-wrapper * {
+    font-family: 'Arsenal', sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.longread-wrapper b { font-weight: 700; }
+.longread-wrapper i { font-style: italic; }
+.longread-wrapper p:empty,
+/*.longread-wrapper .mod_longread-slider .owl-nav,*/
+.longread-wrapper .mod_longread-test-module input[type="radio"],
+.longread-wrapper .mod_longread-test-module input[type="checkbox"],
+.longread-wrapper .mod_longread-multitab .rslides li:before,
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-prev.disabled,
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-next.disabled { display: none; }
+
+.longread-wrapper .longread-fixed-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    max-width: 200px;
+    padding: 16px;
+    background: #eee;
+    overflow-x: hidden;
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s;
+}
+.longread-wrapper .longread-fixed-menu-wrapper .menu-button {
+    position: fixed;
+    top: 50%;
+    right: 200px;
+    z-index: 9999;
+    width: 48px;
+    height: 50px;
+    padding: 8px 0 0 8px;
+    font: 700 12px/12px "Arsenal";
+    color: #27292e;
+    background: #eee;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s;
+}
+.longread-wrapper .longread-fixed-menu-wrapper .arrow {
+    position: absolute;
+    top: 26px;
+    left: 20px;
+    z-index: 1;
+    width: 8px;
+    height: 14px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAOBAMAAADgeEClAAAAD1BMVEUAAAAoKS4mKSwnKC0nKS7+a/3vAAAABHRSTlMAgH9wqgRpHwAAACRJREFUCNdjMGQAAhMBIMHkCGKqoDOdgQSjE5AQUcDGYDAGYgBzeQNB1jiznwAAAABJRU5ErkJggg==") 0 0 no-repeat;
+}
+.longread-wrapper .longread-fixed-menu a {
+    display: block;
+    padding-bottom: 12px;
+    font: 700 14px/21px "Arsenal";
+    color: #27292e;
+    text-decoration: none !important;
+}
+.longread-wrapper .longread-fixed-menu a:hover { color: #6162ac; }
+.longread-wrapper .longread-fixed-menu a:last-child { padding-bottom: 0; }
+.longread-wrapper .longread-fixed-menu-wrapper.closed .menu-button {
+    right: 0;
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s;
+}
+.longread-wrapper .longread-fixed-menu-wrapper.closed .longread-fixed-menu {
+    right: -200px;
+    -webkit-transition: right 0.5s;
+    transition: right 0.5s;
+}
+.longread-wrapper .longread-fixed-menu-wrapper.closed .arrow {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.longread-wrapper .mod_longread-screen {
+    position: relative;
+    padding-bottom: 60px;
+}
+.longread-wrapper .mod_longread-screen:after {
+    content: '';
+    position: absolute;
+    bottom: 60px;
+    left: 300px;
+    right: 300px;
+    border-top: 3px solid #dbe0fd;
+}
+.longread-wrapper .mod_longread-module-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    flex-direction: row;
+}
+.longread-wrapper .mod_longread-page-header {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+.longread-wrapper .mod_longread-page-header .text {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 30px 12px 0 120px;
+}
+.longread-wrapper .mod_longread-page-header .text.full-width {
+    width: 100%;
+    padding: 0 12px;
+}
+.longread-wrapper .mod_longread-page-header h1 {
+    width: 100%;
+    font: 700 40px/40px "Arsenal";
+    color: #6162ac;
+    margin: 0;
+}
+.longread-wrapper .mod_longread-page-header h5 {
+    font: 400 24px/32px "Arsenal";
+    color: #27292e;
+    margin: 0;
+    padding-top: 18px;
+}
+.longread-wrapper .mod_longread-page-header .text p {
+    width: 100%;
+    font: 400 18px/25px "Arsenal";
+    color: #27292e;
+    margin: 0;
+    padding-top: 18px;
+}
+.longread-wrapper .mod_longread-page-header .text ol * {
+    font: 400 18px/25px "Arsenal";
+}
+.longread-wrapper .mod_longread-page-header h1+h5,
+.longread-wrapper .mod_longread-page-header h1+p { padding-top: 107px; }
+.longread-wrapper .mod_longread-page-header .picture {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 0 100px 0 12px;
+}
+.longread-wrapper .mod_longread-page-header img,
+.longread-wrapper .mod_longread-text img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.longread-wrapper .mod_longread-text .textpos{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    width: 50%;
+}
+/* вариант для позиционирования img добавленного через editor */
+.longread-wrapper .mod_longread-text p img {display:initial}
+.longread-wrapper .mod_longread-page-header img { max-width: 600px; }
+.longread-wrapper .mod_longread-page-header .description {
+    margin-top: 118px;
+    width: 100%;
+    padding: 32px 100px 36px 120px;
+    background: #6162ac;
+}
+.longread-wrapper .mod_longread-page-header .description p {
+    margin: 0;
+    padding: 0 0 18px 0;
+    font: 400 18px/25px "Arsenal";
+    color: #fff;
+}
+.longread-wrapper .mod_longread-page-header .description p:last-child { padding-bottom: 0; }
+.longread-wrapper .mod_longread-page-header .description a,
+.longread-wrapper .mod_longread-text th a {
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+.longread-wrapper .mod_longread-contents {
+    padding: 69px 0 68px 0;
+    margin-bottom: 60px;
+    background: #6162ac;
+}
+.longread-wrapper .mod_longread-contents .mod_longread-module-wrapper { flex-wrap: nowrap; }
+.longread-wrapper .mod_longread-contents .header {
+    position: relative;
+    padding-right: 54px;
+    font: 700 40px/40px "Arsenal";
+    color: #fff;
+}
+.longread-wrapper .mod_longread-contents .header:after {
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: 0;
+    width: 35px;
+    height: 0;
+    border-top: 2px dashed #fff;
+}
+.longread-wrapper .mod_longread-contents .list { padding-top: 50px; }
+.longread-wrapper .mod_longread-contents a {
+    position: relative;
+    display: block;
+    padding-left: 44px;
+    font: 400 24px/30px "Arsenal";
+    color: #fff;
+    text-decoration: none !important;
+}
+.longread-wrapper .mod_longread-contents a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    border-right: 2px dashed #fff;
+}
+.longread-wrapper .mod_longread-contents a:after {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 28px;
+    height: 0;
+    border-top: 2px dashed #fff;
+}
+.longread-wrapper .mod_longread-contents a.first-child:before { top: -23px; }
+.longread-wrapper .mod_longread-contents a.last-child:before {
+    bottom: auto;
+    height: 18px;
+}
+.longread-wrapper .mod_longread-header {
+    margin: 0;
+    padding: 0 0 26px 0;
+    font: 700 40px/40px "Arsenal";
+    color: #6162ac;
+
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-text {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 0 60px 0;
+    font: 400 18px/25px "Arsenal";
+}
+
+.longread-wrapper .mod_longread-table { flex-wrap: wrap; }
+.longread-wrapper .mod_longread-text .picture {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.longread-wrapper .mod_longread-text span { font-size: 18px !important; }
+
+.longread-wrapper .mod_longread-text i * {
+    font: 400 18px/25px "Arsenal" !important;
+}
+.longread-wrapper .mod_longread-text .full-width-text { width: 100%;}
+
+.longread-wrapper .mod_longread-text .center-text { margin: 0 auto; }
+.longread-wrapper .mod_longread-text h5 {
+    font: 700 24px/27px "Arsenal";
+    color: #27292e;
+    margin-bottom: 20px;
+}
+.longread-wrapper .mod_longread-text h5.arimoh5 {
+    font: 700 18px/28px "Arsenal";
+    color: #6162ac;
+}
+.longread-wrapper .mod_longread-text li,
+.longread-wrapper .mod_longread-text p,
+.longread-wrapper .mod_longread-accordion p {
+    font: 400 18px/25px "Arsenal";
+    color: #27292e;
+    margin-bottom: 18px;
+}
+.longread-wrapper .mod_longread-text p *,
+.longread-wrapper .mod_longread-accordion p *{
+    font-size: inherit !important;
+}
+.longread-wrapper .mod_longread-text ul,
+.longread-wrapper .mod_longread-text ol {
+    padding: 0 0 0 27px;
+    margin: 0 0 18px 0;
+}
+.longread-wrapper .mod_longread-text p + ul,
+.longread-wrapper .mod_longread-text p + ol { margin-top: -13px; }
+.mod_longread-text ul p { margin-bottom: 0 !important;}
+.mod_longread-text ol p { margin-bottom: 0 !important;}
+.longread-wrapper .mod_longread-text li { margin-bottom: 0; }
+.longread-wrapper .mod_longread-text ul li {
+    position: relative;
+    list-style: none;
+}
+.longread-wrapper .mod_longread-text ul li:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -21px;
+    width: 14px;
+    height: 13px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANBAMAAABr8kJMAAAAJFBMVEXc4P7////b3/37+//29//t7//f4/3y9P/i5v3p7P7u8f7m6f4M9Ww2AAAAXElEQVQI12MQFBR2LxYUZBAUmcHEESLIIBympMCkUchgrcTAwMCUwhCkwAAE2gxJDCCgAaW1GCaBKKZkBgeQvEIhgxRIvSrQnAAlBqWJQFq8QSkVZK6g1U5HQUEAauUMZIgbKVEAAAAASUVORK5CYII=") 0 0 no-repeat;
+}
+.longread-wrapper .mod_longread-text table {
+    width: 100%;
+    border: 2px solid #6162ac;
+    border-spacing: 0;
+    border-collapse: separate;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-text th,
+.longread-wrapper .mod_longread-text th *{
+    padding: 18px 32px 24px 32px;
+    font: 700 24px/30px "Arsenal";
+    color: #fff;
+    background: #6162ac;
+    vertical-align: middle;
+    text-align: center;
+}
+.longread-wrapper .mod_longread-text th:first-child {
+    -webkit-border-top-left-radius: 11px;
+    -moz-border-top-left-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.longread-wrapper .mod_longread-text th:last-child {
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-top-right-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.longread-wrapper .mod_longread-text td {
+    padding: 15px 32px;
+    font: 400 18px/24px "Arsenal";
+    color: #27292e;
+    border-right: 2px solid #6162ac;
+    border-bottom: 2px solid #6162ac;
+    vertical-align: middle;
+}
+.longread-wrapper .mod_longread-text tr td:last-child { border-right: none; }
+.longread-wrapper .mod_longread-text tr:last-child td { border-bottom: none; }
+.longread-wrapper .mod_longread-text thead tr td:last-child { border-bottom: 2px solid #6162ac; }
+.longread-wrapper .mod_longread-picture {
+    padding-bottom: 60px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-picture img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+.longread-wrapper .mod_longread-picture .caption,
+.longread-wrapper .mod_longread-table .caption {
+    display: block;
+    padding: 30px 100px 0 100px;
+    font: 400 18px/24px "Arsenal";
+    font-style: italic;
+    text-align: center;
+    color: #27292e;
+}
+.longread-wrapper .mod_longread-table .caption {
+    width: 100%;
+    padding: 43px 0 0 0;
+}
+.longread-wrapper .mod_longread-quote { padding: 30px 0 60px 0; }
+.longread-wrapper .mod_longread-quote blockquote {
+    position: relative;
+    max-width: 646px;
+    margin: 0 auto;
+    padding: 40px;
+    background: #f9fafe;
+    -webkit-box-shadow: 8px 8px 30px rgba(69, 71, 132, 0.15);
+    -moz-box-shadow: 8px 8px 30px rgba(69, 71, 132, 0.15);
+    box-shadow: 8px 8px 30px rgba(69, 71, 132, 0.15);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-quote img {
+    position: absolute;
+    top: -30px;
+    left: -28px;
+    z-index: 1;
+}
+.longread-wrapper .mod_longread-quote .header {
+    display: block;
+    padding-bottom: 20px;
+    font: 700 24px/30px "Arsenal";
+    color: #6162ac;
+    text-align: center;
+}
+.longread-wrapper .mod_longread-quote p {
+    font: 400 18px/25px "Arsenal";
+    text-align: justify;
+    color: #27292e;
+}
+.longread-wrapper .mod_longread-quote ul * {
+    font: 400 18px/25px "Arsenal" !important;
+}
+
+.longread-wrapper .mod_longread-quote ul li {
+    position: relative;
+    list-style: none;
+}
+
+.longread-wrapper .mod_longread-quote ul li:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -21px;
+    width: 14px;
+    height: 13px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANBAMAAABr8kJMAAAAJFBMVEXc4P7////b3/37+//29//t7//f4/3y9P/i5v3p7P7u8f7m6f4M9Ww2AAAAXElEQVQI12MQFBR2LxYUZBAUmcHEESLIIBympMCkUchgrcTAwMCUwhCkwAAE2gxJDCCgAaW1GCaBKKZkBgeQvEIhgxRIvSrQnAAlBqWJQFq8QSkVZK6g1U5HQUEAauUMZIgbKVEAAAAASUVORK5CYII=") 0 0 no-repeat;
+}
+.longread-wrapper .mod_longread-quote b { color: #6162ac; }
+.longread-wrapper .mod_longread-turn-cards {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 1032px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.longread-wrapper .mod_longread-turn-cards .flip-card {
+    background-color: transparent;
+    width: 328px;
+    height: 328px;
+    perspective: 1000px;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.longread-wrapper .mod_longread-turn-cards .flip-card .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s, transform 0.8s;
+    transform-style: preserve-3d;
+}
+.longread-wrapper .mod_longread-turn-cards .flip-card.turn .flip-card-inner {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+.longread-wrapper .mod_longread-turn-cards .card-front,
+.longread-wrapper .mod_longread-turn-cards .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-turn-cards .card-front {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 0 12px;
+    border: 2px solid #dbe0fd;
+    background: #dbe0fd;
+    -webkit-transition: background 0.3s, border 0.3s;
+    transition: background 0.3s, border 0.3s;
+}
+
+.longread-wrapper .mod_longread-turn-cards .card-front:hover {
+    border: 2px solid #6162ac;
+    background: #fff;
+    -webkit-transition: background 0.3s, border 0.3s;
+    transition: background 0.3s, border 0.3s;
+}
+.longread-wrapper .mod_longread-turn-cards .card-front span {
+    font: 700 24px/30px "Arsenal";
+    color: #27292e;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper .mod_longread-turn-cards .card-front:hover span {
+    color: #6162ac;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper .mod_longread-turn-cards .card-front:before {
+    content: '';
+    position: absolute;
+    right: 22px;
+    bottom: 22px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAASFBMVEUAAAAnKC8nKC0mKS4mKC4nKC4kJCwnKS4mKS0mKC4oKCwmKS4nKS4nKC0lJi0nKi4pKS4nJywlKC0mKS8mJy0mKS0mJi0nKS51XoxFAAAAF3RSTlMAv7/vn3AQ338/IM9vXzDPcG+Pr69QUJMLlBMAAACPSURBVBjTZc9HEsQgDERRJQQmOUzQ/W86iKphYf+V6q3UMNMqiFfLMDsCaGJjIraYJiHlYrLBqIuV7FQiO8waFx1kNuTfx5ITI4ZlwgqBRueibhXuxfeDwul/3XvFB1Xr6z5wFEBZFgVfRQDJvrDazEl3bks47oMg7yZ9gs9GAi9FX8XGSf2vWW4XkVQF7wdd0AUT1EYSEwAAAABJRU5ErkJggg==") 0 0 no-repeat;
+}
+.longread-wrapper .mod_longread-turn-cards .card-back{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateY(180deg);
+}
+
+.longread-wrapper .mod_longread-turn-cards .card-back:before {
+    content: '';
+    position: absolute;
+    right: 22px;
+    bottom: 22px;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAASFBMVEUAAAAnKC8nKC0mKS4mKC4nKC4kJCwnKS4mKS0mKC4oKCwmKS4nKS4nKC0lJi0nKi4pKS4nJywlKC0mKS8mJy0mKS0mJi0nKS51XoxFAAAAF3RSTlMAv7/vn3AQ338/IM9vXzDPcG+Pr69QUJMLlBMAAACPSURBVBjTZc9HEsQgDERRJQQmOUzQ/W86iKphYf+V6q3UMNMqiFfLMDsCaGJjIraYJiHlYrLBqIuV7FQiO8waFx1kNuTfx5ITI4ZlwgqBRueibhXuxfeDwul/3XvFB1Xr6z5wFEBZFgVfRQDJvrDazEl3bks47oMg7yZ9gs9GAi9FX8XGSf2vWW4XkVQF7wdd0AUT1EYSEwAAAABJRU5ErkJggg==") 0 0 no-repeat;
+}
+
+.longread-wrapper .mod_longread-accordion {
+    padding: 0 0 60px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-accordion .accordion-header {
+    position: relative;
+    padding: 14px 32px 14px 0;
+    cursor: pointer;
+}
+.longread-wrapper .mod_longread-accordion .accordion-header-text {
+    font: 700 24px/30px "Arsenal";
+    color: #6162ac;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper .mod_longread-accordion .accordion-header.collapsed .accordion-header-text {
+    color: #27292e;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper .mod_longread-accordion .accordion-cross {
+    position: absolute;
+    top: 21px;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s, transform 0.3s;
+}
+.longread-wrapper .mod_longread-accordion .accordion-cross:before,
+.longread-wrapper .mod_longread-accordion .accordion-cross:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 7px;
+    width: 2px;
+    height: 16px;
+    background: #6162ac;
+}
+.longread-wrapper .mod_longread-accordion .accordion-cross:after {
+    top: 7px;
+    left: 0;
+    width: 16px;
+    height: 2px;
+}
+.longread-wrapper .mod_longread-accordion .accordion-header.collapsed .accordion-cross {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s, transform 0.3s;
+}
+.longread-wrapper .mod_longread-accordion .accordion-header.collapsed .accordion-cross:before,
+.longread-wrapper .mod_longread-accordion .accordion-header.collapsed .accordion-cross:after {
+    background: #27292e;
+}
+.longread-wrapper .mod_longread-accordion hr {
+    margin: 0;
+    border-top: 1px solid #27292e;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+.longread-wrapper .mod_longread-accordion .collapse.show + hr {
+    border-color: #6162ac;
+    -webkit-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.longread-wrapper .mod_longread-accordion ul * {
+    font: 400 18px/25px "Arsenal" !important;
+}
+
+
+.longread-wrapper .mod_longread-accordion ul li {
+    position: relative;
+    list-style: none;
+}
+
+.longread-wrapper .mod_longread-accordion ul li:before {
+    content: '';
+    position: absolute;
+    top: 6px;
+    left: -21px;
+    width: 14px;
+    height: 13px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAANBAMAAABr8kJMAAAAJFBMVEXc4P7////b3/37+//29//t7//f4/3y9P/i5v3p7P7u8f7m6f4M9Ww2AAAAXElEQVQI12MQFBR2LxYUZBAUmcHEESLIIBympMCkUchgrcTAwMCUwhCkwAAE2gxJDCCgAaW1GCaBKKZkBgeQvEIhgxRIvSrQnAAlBqWJQFq8QSkVZK6g1U5HQUEAauUMZIgbKVEAAAAASUVORK5CYII=") 0 0 no-repeat;
+}
+
+.longread-wrapper .mod_longread-accordion table {
+    width: 100%;
+    border: 2px solid #6162ac;
+    border-spacing: 0;
+    border-collapse: separate;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-accordion th,
+.longread-wrapper .mod_longread-accordion th *{
+    padding: 18px 32px 24px 32px;
+    font: 700 24px/30px "Arsenal";
+    color: #fff;
+    background: #6162ac;
+    vertical-align: middle;
+    text-align: center;
+}
+.longread-wrapper .mod_longread-accordion th:first-child {
+    -webkit-border-top-left-radius: 11px;
+    -moz-border-top-left-radius: 11px;
+    border-top-left-radius: 11px;
+}
+.longread-wrapper .mod_longread-accordion th:last-child {
+    -webkit-border-top-right-radius: 11px;
+    -moz-border-top-right-radius: 11px;
+    border-top-right-radius: 11px;
+}
+.longread-wrapper .mod_longread-accordion td {
+    padding: 15px 32px;
+    font: 400 18px/24px "Arsenal";
+    color: #27292e;
+    border-right: 2px solid #6162ac;
+    border-bottom: 2px solid #6162ac;
+    vertical-align: middle;
+}
+.longread-wrapper .mod_longread-accordion tr td:last-child { border-right: none; }
+.longread-wrapper .mod_longread-accordion tr:last-child td { border-bottom: none; }
+
+.longread-wrapper .mod_longread-slider {
+    padding-bottom: 60px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-slider img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-height: 800px;
+    object-fit: contain;
+}
+
+.longread-wrapper .mod_longread-slider,
+.longread-wrapper .mod_longread-slider .item { position: relative; }
+.longread-wrapper .mod_longread-slider .text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 12px;
+    right: 12px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content:center;
+}
+.longread-wrapper .mod_longread-slider .text .title,
+.longread-wrapper .mod_longread-slider .text .subscription {
+    display: block;
+    width: 100%;
+    /*margin: auto 0 30px 0;*/
+    font: 700 40px/40px "Arsenal";
+    text-align: center;
+    color: #fff;
+}
+.longread-wrapper .mod_longread-slider .text .subscription {
+    /*margin: 0 0 auto 0;*/
+    font: 400 24px/30px "Arsenal";
+    color: #a0a1cd;
+}
+.longread-wrapper .mod_longread-slider .text .title {
+    margin-bottom: 30px;
+}
+/*.longread-wrapper .mod_longread-slider .text{*/
+/*    margin: auto 0 auto 0;*/
+/*}*/
+.longread-wrapper .mod_longread-slider .owl-dots {
+    padding-top: 12px;
+    text-align: center;
+}
+.longread-wrapper .mod_longread-slider .owl-dots button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 16px;
+    border: none !important;
+    background: #27292e;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.longread-wrapper .mod_longread-slider .owl-dots button:last-child { margin-right: 0; }
+.longread-wrapper button:focus,
+.longread-wrapper input:focus {
+    outline: none;
+    outline: 0;
+}
+.longread-wrapper .mod_longread-slider .owl-dots button.active { background: #6162ac; }
+
+.longread-wrapper .mod_longread-zoom-picture {
+    padding-bottom: 60px;
+    text-align: center;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-zoom-picture .img-container {
+    position: relative;
+    display: inline-block;
+}
+.longread-wrapper .mod_longread-zoom-picture .img-container .plus,
+.longread-wrapper .mod_longread-zoom-picture .modal-bg .close {
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    z-index: 1;
+    width: 47px;
+    height: 47px;
+    border: 3px solid #a0a1cd;
+    background: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+.longread-wrapper .mod_longread-zoom-picture .img-container .plus:before,
+.longread-wrapper .mod_longread-zoom-picture .img-container .plus:after,
+.longread-wrapper .mod_longread-zoom-picture .modal-bg .close:before,
+.longread-wrapper .mod_longread-zoom-picture .modal-bg .close:after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 19px;
+    z-index: 1;
+    width: 3px;
+    height: 25px;
+    background: #a0a1cd;
+}
+.longread-wrapper .mod_longread-zoom-picture .img-container .plus:after,
+.longread-wrapper .mod_longread-zoom-picture .modal-bg .close:after {
+    top: 19px;
+    left: 8px;
+    width: 25px;
+    height: 3px;
+}
+.longread-wrapper .mod_longread-zoom-picture .img-container img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #a0a1cd;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: zoom-in;
+}
+.longread-wrapper .mod_longread-zoom-picture .modal-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10001;
+    background: rgba(0, 0, 0, 0.75);
+}
+.longread-wrapper .mod_longread-zoom-picture .modal-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.longread-wrapper .mod_longread-zoom-picture .modal-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.longread-wrapper .mod_longread-zoom-picture .modal-bg .close {
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 2;
+    opacity: 1;
+}
+.longread-wrapper .mod_longread-multitab {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /*padding: 0 100px 60px 100px;*/
+    padding: 0 0 60px 0;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.longread-wrapper .mod_longread-multitab .rslides_container
+{
+    position: relative;
+    width: 100%;
+}
+.longread-wrapper .mod_longread-multitab .rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.longread-wrapper .mod_longread-multitab .rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-bottom: 0;
+}
+.longread-wrapper .mod_longread-multitab .rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+.longread-wrapper .mod_longread-multitab .rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+.longread-wrapper .mod_longread-multitab .controls {
+    width: 334px;
+    margin: 0;
+    padding: 0 24px 0 0;
+    flex-shrink: 0;
+    list-style: none;
+}
+.longread-wrapper .mod_longread-multitab .controls li {
+    margin-bottom: 24px;
+    background: #dbe0fd;
+    border: 2px solid #dbe0fd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-transition: background 0.3s, border 0.3s;
+    transition: background 0.3s, border 0.3s;
+}
+.longread-wrapper .mod_longread-multitab .controls li:last-child { margin-bottom: 0; }
+.longread-wrapper .mod_longread-multitab .controls li.rslides_here,
+.longread-wrapper .mod_longread-multitab .controls li:hover {
+    border: 2px solid #6162ac;
+    background: #fff;
+    -webkit-transition: background 0.3s, border 0.3s;
+    transition: background 0.3s, border 0.3s;
+}
+.longread-wrapper .mod_longread-multitab .controls li a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 19px 22px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-decoration: none !important;
+}
+.longread-wrapper .mod_longread-multitab .controls li .img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.longread-wrapper .mod_longread-multitab .controls li .text {
+    padding-left: 22px;
+    font: 700 20px/26px "Arsenal";
+    color: #27292e;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper .mod_longread-multitab .controls li.rslides_here .text,
+.longread-wrapper .mod_longread-multitab .controls li:hover .text {
+    color: #6162ac;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+.longread-wrapper label.choice,
+.longread-wrapper label.right,
+.longread-wrapper label.wrong,
+.longread-wrapper div.choice,
+.longread-wrapper div.right,
+.longread-wrapper div.wrong {
+    position: relative;
+    border: 2px solid #a0a1cd !important;
+}
+.longread-wrapper label.right,
+.longread-wrapper div.right { border: 2px solid #47a429 !important; }
+.longread-wrapper label.wrong,
+.longread-wrapper div.wrong { border: 2px solid #a72a3b !important; }
+.longread-wrapper label.choice span.choice,
+.longread-wrapper label.right span.right,
+.longread-wrapper label.wrong span.wrong,
+.longread-wrapper div.choice span.choice,
+.longread-wrapper div.right span.right,
+.longread-wrapper div.wrong span.wrong {
+    position: absolute;
+    top: -27px;
+    left: -27px;
+    z-index: 1;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAkFBMVEUAAACgosyios6gos2gos6hocuhos6kpc+mp9Cmp9GlptChoc2mp9CgoNCensqkpc+kpc+lptD///+kpc+kptClpdCgoM7///+goc2jpM/i4/C9vt329vuztNfFxeDCw9/8/P3z8/m1ttiur9TT0+inqNHu7vbs7fXNzuXr6/Xd3e3MzeTJyeLIyeLv7/bU1ekusrqlAAAAF3RSTlMAPG5eOBL77LHKo3isFQ7viu0Bi4yIPu/5pyMAAAHNSURBVEjHnZbndsIwDEYxSRM2lA592SRlr77/29WGA6KxsUPu/3ssy7KkjpGx8LrDYdcT404zJt5oijvTkTdxKqIXoEbQ8+1KHxeirDgeDscii3Ch/1x7G0CRLTd0Z7PMoBi8mZ3vUJ2Rn6nGOVfnhcLkdCFJSjJQJpB0NWX+AWAV0xPiFYCPeU36BFCl9JS0AjDTY0sWZGGR1CMUyiGJyxIPuQ6BakEuqwJCzvwAWKXkJF0Bg8fgYmpADOBWG32+kIME6F8dH4jKZlIZ3Y7qATk1pAB6l9QFwLmptAaCiZQ8IKPGZIB3jW5py3OSpMQsgZGUpsDG4vwAv8RsgHfZQ4DI7kQ7eiACxuplK7sT1y8lVB4Ku6Ml3VOf4kiP7Pc2h07qgwyB7T8HyHWH2QJDk4Tc6LCkh5cry+RweNdE6JbJ4UQIVUW6FekOp5wft2bpDj+uuYzyp87uUkadkalgt5XmcMG2/RqTAFi/9AnbfPeXGwsAv20Lk/gvNktuy2XDttx+APCoWbhHTSDaDjVm5hifJY9PZj5zD+qvdiuBjgghKdZavRWQhMKx5uzY2DnWHInPC9XpcDg5FirWLKubfUkM2Xh3Lon6Omq+yR/Fv75Pcd8l1wAAAABJRU5ErkJggg==");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.longread-wrapper label.right span.right,
+.longread-wrapper div.right span.right {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAvVBMVEUAAABHpChJpSxHpShHoypIpihJpS1TqjZRqTRHpSdQqDNOqDFSqjZTqjZJqiRPqDFSqTZIpChHpSlPqDJOqDEA/wBSqjdNqDJGoi7///9HpCn8/vxLpi2Nx3rG471st1Tt9una7dRisklQqTT5/Pfr9efn9OOIxHV/wGpvuFh+v2lVqznf79mr1p3I5L+o1Zqdzo2Wy4SVy4RqtVHf79qez4+Cwm5yuVvw+O293rK83rGf0I9WqzvK5cKBwW0V0lC8AAAAGXRSTlMAO25eNxL7yqMP7e6vrBXtsnl3iokBsYwWHpsORAAAAglJREFUSMedlul2qjAUhYlotc4d7z0bkHoRRXHW3s59/8dqwmobmhBM+X661keOJznJdgrpM7d2eVlzWd+x49ztdvBNp+een1TY8AwKZ0NWrjSREYWz3Xa7m4URMpp1o9JoQRCuxh594o1XIQSthmGZAQA/OJLCMfABDAprrIHzf0oFTN/BqWnKzR/+8+uaDKxTAFc3iiSchzsyEs+FpdeWTKiEyUKtkAnHo1I8YbFcrzu8tgmdYMIrbMvOt3gPYjpJnPL9yhe3JgtGAL7ORpPvD1mRAM3vhfypnTT1v5YaAgFZEgC32fzwWTjaSks+KWK+XCAkaw6Ay6UusCIzd0nySJIN0OMS39hxifPv5zfHfIMd5y8QeaWOn/+mFwF90fC50XkUzojyhAATfZgZ19EdmgGuGIod5Xl6KnNoLwbkAnihHM9A4JkdugcuhHSvSNxSHEXSyvOCzFIcpbysEboVS6egEUycIt2KdEe2XG6uYumO3Fx5jBRLc+QxMhxY7+XhTRfkga02GmIIl78awgrj3q10sVS5wqpdlvJaTn97LTuNATC3fwByBS4snhqfqY/awvJRk1yBVxifeD6v1Yf6mv+Yjox9S6WjRYKkOBIkMhIosHYWPpbaecvCR5uVxpzDJh9zNofSmMOpy0C13273SqAya7d6dOvWLUJibyCNtiEklsXR4n/yAb7z0jybTgR2AAAAAElFTkSuQmCC");
+}
+.longread-wrapper label.wrong span.wrong,
+.longread-wrapper div.wrong span.wrong {
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAMAAADypuvZAAAAq1BMVEUAAACrM0OoLT6nKjmoLj6mKDqnJzisN0esN0enKTunKTumKjuqM0OmKzunKzytNkasNESmKjunKzynKzqtNkatOEerM0OtOEmtN0f///+nKjv+/PzJe4bRj5i5VGHMgozCanb05Ob89/jlv8S7WmesNUX26Ort1NfDbXm7W2i6V2Tv2dzHdoGuO0roxsvGdH/w2t3WnKTWmqLNhY/u1dnXnaXNhpCuPEuuOUmQ0OfvAAAAGXRSTlMA7W45+xMPsaxdPTaJXzuloXl3YMzIi8zGd0+g4AAAAgRJREFUSMedluly2jAUhZEXzGZDQkh7jzccCARDAoSk7fs/WSVVQ7FlG8vfH2bwnNHV1V1OrxJ3NLceH635yO21oz8fMFxhA79/V2J7Dko4nt0seYLkNT9c4vhyyF8h+VEvc6cQJN9fISnC7TmBYFpzuxETsUQnKnGKRMQsqNJY4LxlVEH2Bo6la575379XVMPqnX9+rtLsNlTLZg1gose2fKEGXpblCEdCE1IjoVAFN7lmPDbtHO0sHiH7n/kpz8GG7rLh2Zhd6wDAilqwAjBWoif+PtQK/l6L60FO1k6UOYAtRR4QUUsiwJP9w9WntqI9j0r01xxIqDUJMPwX3TcV+NjFoXrQePdBBT6BARcx4IsKrIEolJoIWFOBLcB4NfA+LRVQDKmSGsSlYuK97Iqyy6lEKlXqR7+U3fOBAxVQR0RRlYaOIhMW8Iuo6qxKDV1EgzyosPWzdI268EONiNImkXF4qQhv2CERnVLe6XFlGW1Ny6g3AM7GBesbt4Zqwr1RE5q2+wHwjAeLmGGmI2wJ/Ow8LNVY/pMZjWW1ANb3F0AOsBt/ELRcNY7daakVmIBH2LQ+c7U+NdV786KemFmCpbIEOgGTHb7X6i0Ch9k1NmcGQXLe3ticzwSCWb0XGy+UoUqOaRynx0QZqsXY3LqN75vEYdEkDvu9driBL+yob1cbtr8/GM9UFx5BeAAAAABJRU5ErkJggg==");
+}
+.longread-wrapper div.choice span.choice,
+.longread-wrapper div.right span.right,
+.longread-wrapper div.wrong span.wrong {
+    top: 24px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.longread-wrapper .mod_longread-test-module { text-align: center; }
+.longread-wrapper .mod_longread-test-module p {
+    margin: 0;
+    padding-bottom: 32px;
+    font: 400 18px/25px "Arsenal";
+    color: #27292e;
+}
+.longread-wrapper .mod_longread-test-module button {
+    padding: 28px 93px;
+    font: 700 24px/24px "Arsenal";
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #6162ac;
+    border: none !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.longread-wrapper .mod_longread-test-module button:focus {
+    outline: none;
+    outline: 0;
+}
+.longread-wrapper .mod_longread-test-module button:hover { background: #8181bd; }
+.longread-wrapper .mod_longread-single-choice,
+.longread-wrapper .mod_longread-multi-choice,
+.longread-wrapper .mod_longread-fill-blank-words {
+    max-width: 646px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.longread-wrapper .mod_longread-single-choice label,
+.longread-wrapper .mod_longread-multi-choice label {
+    display: block;
+    margin-bottom: 30px;
+    padding: 23px 22px;
+    font: 700 20px/30px "Arsenal";
+    border: 2px solid #dbe0fd;
+    background: #dbe0fd;
+    color: #27292e;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: #dbe0fd;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.longread-wrapper .mod_longread-single-choice label:last-child,
+.longread-wrapper .mod_longread-multi-choice label:last-child { margin-bottom: 40px; }
+.longread-wrapper .mod_longread-single-choice input[type="radio"]:checked+label,
+.longread-wrapper .mod_longread-multi-choice input[type="checkbox"]:checked+label {
+    border: 2px solid #6162ac;
+    background: #6162ac;
+    color: #fff;
+}
+.longread-wrapper .mod_longread-single-choice label:hover,
+.longread-wrapper .mod_longread-multi-choice label:hover {
+    border: 2px solid #6162ac;
+    background: #fff;
+    color: #6162ac;
+}
+.longread-wrapper .mod_longread-fill-blank-words {
+    max-width: 970px;
+    width: 100%;
+}
+.longread-wrapper .mod_longread-fill-blank-words form p {
+    padding-bottom: 24px;
+    font: 400 24px/36px "Arsenal";
+    text-align: left;
+}
+.longread-wrapper .mod_longread-fill-blank-words form p:last-child { padding-bottom: 40px; }
+.longread-wrapper .mod_longread-fill-blank-words input[type="text"] {
+    max-width: 280px;
+    padding: 0 16px;
+    font: 400 24px/34px "Arsenal";
+    color: #27292e;
+    border: 1px solid #27292e;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.longread-wrapper input[type="text"].right {
+    border: 2px solid #47a429 !important;
+    color: #47a429 !important;
+    background: #fff;
+}
+.longread-wrapper input[type="text"].wrong {
+    border: 2px solid #a72a3b !important;
+    color: #a72a3b !important;
+    background: #fff;
+}
+.longread-wrapper .mod_longread-captcha,
+.longread-wrapper .mod_longread-set-in-order,
+.longread-wrapper .mod_longread-fill-blank-words-cards,
+.longread-wrapper .mod_longread-matching,
+.longread-wrapper .mod_longread-choice-by-cards { padding-bottom: 60px; }
+.longread-wrapper .mod_longread-captcha .answers,
+.longread-wrapper .mod_longread-set-in-order .answers,
+.longread-wrapper .mod_longread-matching .answers,
+.longread-wrapper .mod_longread-matching .matching,
+.longread-wrapper .mod_longread-choice-by-cards .matching {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 978px;
+    margin: 0 auto;
+    padding-bottom: 18px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.longread-wrapper .mod_longread-captcha label,
+.longread-wrapper .mod_longread-set-in-order label {
+    width: 310px;
+    margin-bottom: 24px;
+    border: 2px solid #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.longread-wrapper .mod_longread-captcha img,
+.longread-wrapper .mod_longread-set-in-order img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.longread-wrapper .mod_longread-captcha input:checked+label { border: 2px dashed #6162ac; }
+.longread-wrapper .mod_longread-captcha label.choice span.choice,
+.longread-wrapper .mod_longread-captcha label.right span.right,
+.longread-wrapper .mod_longread-captcha label.wrong span.wrong,
+.longread-wrapper .mod_longread-set-in-order label.choice span.choice,
+.longread-wrapper .mod_longread-set-in-order label.right span.right,
+.longread-wrapper .mod_longread-set-in-order label.wrong span.wrong {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.longread-wrapper .mod_longread-set-in-order label { cursor: grab; }
+.longread-wrapper .mod_longread-set-in-order label.ui-sortable-placeholder {
+    border: 2px solid #dbe0fd;
+    background: #dbe0fd;
+    visibility: visible !important;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .answers {
+    margin-bottom: 42px;
+    padding: 36px 0 20px 0;
+    background: -moz-linear-gradient(180deg, #2B2C52 0%, #18182D 100%);
+    background: -webkit-linear-gradient(180deg, #2B2C52 0%, #18182D 100%);
+    background: linear-gradient(180deg, #2B2C52 0%, #18182D 100%);
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-carousel {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .item {
+    position: relative;
+    padding: 14px;
+    background: #fff;
+    border: 2px solid #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-item {
+    -webkit-transform: scale(0.65);
+    -moz-transform: scale(0.65);
+    -ms-transform: scale(0.65);
+    -o-transform: scale(0.65);
+    transform: scale(0.65);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s, transform 0.3s;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-item.center {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: -webkit-transform 0.3s, transform 0.3s;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards figure { margin: 0; }
+.longread-wrapper .mod_longread-fill-blank-words-cards img {
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards figcaption {
+    margin: 0;
+    padding: 18px 0;
+    font: 700 24px/36px "Arsenal";
+    text-align: center;
+    color: #6162ac;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards input {
+    display: block;
+    width: 100%;
+    font: 400 18px/34px "Arsenal";
+    text-align: center;
+    color: #6162ac;
+    border: 2px solid #6162ac;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-dots {
+    position: relative;
+    z-index: 2;
+    margin: 0 90px;
+    padding-top: 58px;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-dot {
+    display: inline-block;
+    margin: 0 16px 16px 0;
+    padding: 0;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-dot span {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: #a0a1cd;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-dot.active span { background: #fff; }
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-dot:last-child { margin-right: 0; }
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-prev,
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-next {
+    position: absolute;
+    left: 70px;
+    bottom: 6px;
+    z-index: 1;
+    display: block;
+    width: 20px;
+    height: 36px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAkBAMAAADm0A4bAAAAElBMVEUAAAD///////////////////8+Uq06AAAABXRSTlMAX2Dv39ZY8gMAAACOSURBVCjPfdIxDoJQDAbgChyARN1d3I3R3Wg8gELvfxUm3hdegH9svrRp05hzujePPqoccuzyF1XOObSZfU3z3+SM0bzEtWA0Ag40AkbhBYVRuKIwCqMLjMJohVEYXeJnofAtvivV13qHjWkwurkFjMLoziVhFEZhtMIojO5/VP198Nih8NAWKsd38yl0AnSXPnN2E/rGAAAAAElFTkSuQmCC") 0 0 no-repeat !important;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-next {
+    left: auto;
+    right: 70px;
+    background-position: -21px 0 !important;
+}
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-prev:hover,
+.longread-wrapper .mod_longread-fill-blank-words-cards .owl-next:hover { opacity: 1; }
+.longread-wrapper .mod_longread-matching hr {
+    max-width: 978px;
+    height: 3px;
+    margin: 0 auto 24px auto;
+    padding: 0;
+    border: none;
+    background: #6162ac;
+}
+.longread-wrapper .mod_longread-matching .answers { padding: 0; }
+.longread-wrapper .mod_longread-matching .matching { padding-bottom: 42px; }
+.longread-wrapper .mod_longread-matching .answer { cursor: grab; }
+.longread-wrapper .mod_longread-matching .answer,
+.longread-wrapper .mod_longread-matching .matching>div {
+    width: 310px;
+    margin-bottom: 24px;
+    background: #dbe0fd;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.longread-wrapper .mod_longread-matching .matching>div {
+    border: 2px solid #6162ac;
+    background: #6162ac;
+}
+.longread-wrapper .mod_longread-matching span.answer,
+.longread-wrapper .mod_longread-matching span.match {
+    padding: 18px 12px;
+    font: 400 24px/30px "Arsenal";
+    text-transform: uppercase;
+    color: #27292e;
+}
+.longread-wrapper .mod_longread-matching .matching span.answer,
+.longread-wrapper .mod_longread-matching .matching img.answer {
+    display: block;
+    width: 100%;
+    margin: 0;
+}
+.longread-wrapper .mod_longread-matching .matching img.answer {
+    width: 155px;
+    height: auto;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-matching span.match {
+    display: block;
+    margin: 0;
+    background: transparent;
+    color: #fff;
+}
+.longread-wrapper .mod_longread-matching img.match {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.longread-wrapper .mod_longread-choice-by-cards .answers {
+    width: 310px;
+    min-height: 310px;
+    margin: 0 auto 48px auto;
+}
+.longread-wrapper .mod_longread-choice-by-cards .answer {
+    width: 310px;
+    min-height: 310px;
+    padding: 12px;
+    background: #fff;
+    border: 2px solid #6162ac;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    cursor: grab;
+}
+.longread-wrapper .mod_longread-choice-by-cards .answer span {
+    font: 400 24px/30px "Arsenal";
+    text-transform: uppercase;
+    color: #6162ac;
+}
+.longread-wrapper .mod_longread-choice-by-cards .answers .answer { display: none; }
+.longread-wrapper .mod_longread-choice-by-cards .answers .answer.ui-sortable-helper,
+.longread-wrapper .mod_longread-choice-by-cards .answers .answer:last-child {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.longread-wrapper .mod_longread-choice-by-cards .matching .answer {
+    display: block;
+    width: 100%;
+    min-height: auto;
+}
+.longread-wrapper .mod_longread-choice-by-cards .matching { padding-bottom: 42px; }
+.longread-wrapper .mod_longread-choice-by-cards .matching>div {
+    width: 310px;
+    min-height: 310px;
+    margin-bottom: 24px;
+    background: #dbe0fd;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+.longread-wrapper .mod_longread-choice-by-cards .match {
+    display: block;
+    padding: 12px;
+    font: 400 24px/30px "Arsenal";
+    text-transform: uppercase;
+    color: #27292e;
+}
+@media only screen and (max-width: 1400px) {
+    .longread-wrapper .mod_longread-screen:after {
+        left: 150px;
+        right: 150px;
+    }
+    .longread-wrapper .mod_longread-turn-cards { max-width: 680px; }
+}
+@media only screen and (max-width: 1200px) {
+    .longread-wrapper .mod_longread-page-header .text { padding: 40px 12px 0 12px; }
+    .longread-wrapper .mod_longread-page-header .text.full-width {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .longread-wrapper .mod_longread-page-header .picture { padding: 0 12px; }
+    .longread-wrapper .mod_longread-text { flex-wrap: wrap; }
+    .longread-wrapper .mod_longread-text .picture { width: 100%; }
+    .longread-wrapper .mod_longread-text .text {
+        width: 100%;
+        padding: 24px 0 0 0;
+    }
+
+    .longread-wrapper .mod_longread-multitab { flex-wrap: wrap; }
+    .longread-wrapper .mod_longread-multitab .controls {
+        width: 100%;
+        padding: 0 0 24px 0;
+    }
+    .longread-wrapper .mod_longread-multitab .controls {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .longread-wrapper .mod_longread-multitab .controls li { width: 100%; }
+    .longread-wrapper .mod_longread-fill-blank-words { padding: 0 12px 60px 12px; }
+    .longread-wrapper .mod_longread-captcha .answers,
+    .longread-wrapper .mod_longread-set-in-order .answers,
+    .longread-wrapper .mod_longread-matching .answers,
+    .longread-wrapper .mod_longread-matching .matching,
+    .longread-wrapper .mod_longread-matching hr,
+    .longread-wrapper .mod_longread-choice-by-cards .matching { max-width: 644px; }
+    .longread-wrapper .mod_longread-fill-blank-words-cards .owl-carousel { padding: 0 70px; }
+    .longread-wrapper .mod_longread-fill-blank-words-cards .owl-dots { margin: 0; }
+}
+@media only screen and (max-width: 1024px) {
+    .longread-wrapper .mod_longread-page-header .text {
+        width: 100%;
+        padding: 0 12px;
+    }
+    .longread-wrapper .mod_longread-page-header .picture {
+        width: 100%;
+        padding: 40px 12px 0 12px;
+        justify-content: center;
+    }
+    .longread-wrapper .mod_longread-page-header .description {
+        margin-top: 75px;
+        padding: 32px 12px 36px 12px;
+    }
+    .longread-wrapper .mod_longread-contents { padding: 69px 12px 68px 12px; }
+    .longread-wrapper .mod_longread-contents .mod_longread-module-wrapper { flex-wrap: wrap; }
+    .longread-wrapper .mod_longread-contents .header {
+        width: 100%;
+        padding: 4px 0;
+        text-align: center;
+    }
+    .longread-wrapper .mod_longread-contents a { padding-left: 0; }
+    .longread-wrapper .mod_longread-contents .header:after,
+    .longread-wrapper .mod_longread-contents a:before,
+    .longread-wrapper .mod_longread-contents a:after,
+    .longread-wrapper .mod_longread-quote img { display: none; }
+    .longread-wrapper .mod_longread-header { padding: 0 12px 26px 12px; }
+    .longread-wrapper .mod_longread-text,
+    .longread-wrapper .mod_longread-quote { padding: 0 12px 60px 12px; }
+    .longread-wrapper .mod_longread-picture .caption { padding: 30px 12px 0 12px; }
+    .longread-wrapper .mod_longread-quote blockquote { max-width: 100%; }
+    .longread-wrapper .mod_longread-turn-cards { max-width: 328px; }
+
+    .longread-wrapper .mod_longread-slider .text {
+        position: relative;
+        left: auto;
+        right: auto;
+        display: block;
+    }
+    .longread-wrapper .mod_longread-slider .text .title,
+    .longread-wrapper .mod_longread-slider .text .subscription {
+        display: block;
+        margin: 0 0 12px 0;
+        color: #27292e;
+    }
+    .longread-wrapper .mod_longread-multitab { padding: 0 12px 60px 12px; }
+    .longread-wrapper .mod_longread-single-choice, .longread-wrapper .mod_longread-multi-choice {
+        max-width: 100%;
+        padding: 0 12px 60px 12px;
+    }
+    .longread-wrapper .mod_longread-fill-blank-words-cards .owl-dots { padding-top: 29px; }
+}
+@media only screen and (max-width: 767px)  {
+    .longread-wrapper .longread-fixed-menu-wrapper .menu-button {
+        top: auto;
+        bottom: 24px;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .longread-wrapper .mod_longread-page-header { padding-top: 0; }
+    .longread-wrapper .mod_longread-screen:after {
+        left: 48px;
+        right: 48px;
+    }
+    .longread-wrapper .mod_longread-page-header h1,
+    .longread-wrapper .mod_longread-header { font: 700 36px/44px "Arsenal"; }
+    .longread-wrapper .mod_longread-text { overflow-x: auto; }
+    .longread-wrapper .mod_longread-quote { padding: 0 0 60px 0; }
+    .longread-wrapper .mod_longread-quote blockquote {
+        padding: 20px 12px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .longread-wrapper .mod_longread-slider .text .title,
+    .longread-wrapper .mod_longread-slider .text .subscription { font: 400 24px/30px "Arsenal"; }
+    .longread-wrapper .mod_longread-single-choice label, .longread-wrapper .mod_longread-multi-choice label { padding: 12px; }
+    .longread-wrapper .mod_longread-test-module button { padding: 28px 56px; }
+    .longread-wrapper .mod_longread-captcha .answers,
+    .longread-wrapper .mod_longread-set-in-order .answers,
+    .longread-wrapper .mod_longread-matching .answers,
+    .longread-wrapper .mod_longread-matching .matching,
+    .longread-wrapper .mod_longread-matching hr,
+    .longread-wrapper .mod_longread-choice-by-cards .matching { max-width: 310px; }
+    .longread-wrapper .mod_longread-fill-blank-words-cards .owl-carousel { padding: 0 12px; }
+}
+.longread-wrapper .mod_longread-screen>h3:last-child,
+.longread-wrapper .mod_longread-screen>img:last-child,
+.longread-wrapper .mod_longread-screen>div:last-child { padding-bottom: 63px; }
+
+.bdeditmdl {
+    position: relative;
+    float: right;
+}
+.btneditmdl {
+    position: absolute;
+    top: -1rem;
+    right: -.95rem;
+    z-index: 10;
+    display: block;
+    padding: .25rem .5rem;
+    font-size: .65em;
+    border-radius: .25rem;
+}
+.btn-note-tag .fa{
+    font-family: FontAwesome;
+    font-style: normal !important;
+    padding: 0 5px;
+}
+.btn-note-ply .fa{
+    font-family: FontAwesome;
+    font-style: normal !important;
+    padding: 0 5px;
+}
+.btn-speech-ply .fa{
+    font-family: FontAwesome;
+    font-style: normal !important;
+    padding: 0 5px;
+}
+.btn-speech-dwn .fa{
+    font-family: FontAwesome;
+    font-style: normal !important;
+    padding: 0 5px;
+}
+.activetag{
+    border-radius: 8px;
+    box-shadow: 5px 5px 15px #b3c3ff;
+}
+.btn-note-tag{
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 0;
+}
+.notes-dialog .ui-dialog-titlebar{
+    background: #6162ac;
+    color: #fff;
+}
+/* прелоадер для времени чтения */
+.lds-dual-ring {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 2px solid #696969;
+    border-color: #696969 transparent #696969 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.lds-dual-ring-sch {
+    display: inline-block;
+    width: 18px;
+    height: 28px;
+}
+
+.lds-dual-ring-sch:after {
+    content: " ";
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #696969;
+    border-color: #696969 transparent #696969 transparent;
+    animation: lds-dual-ring-sch 1.2s linear infinite;
+}
+@keyframes lds-dual-ring-sch {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.mod_longread-timeread{
+    padding: 0 0 60px 0;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    font: 400 18px/25px "Arsenal";
+}
+
+.longread-fixed-speech{
+    left: 3%;
+    top: 0;
+    position: absolute;
+}
+span.speech-button{
+    position: fixed;
+    float: left;
+    /*transform: translateX(-100%);*/
+}
+.btn-note-ply{
+    width: 28px;
+    /*height: 28px;*/
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.btn-speech-ept{
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    width: 28px;
+    /*height: 28px;*/
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5%;
+    margin-left : 5%;
+    padding: 0;
+    cursor: pointer;
+    background-color: white;
+}
+.play:before {
+    content: '\25b6';
+}
+.pause:before {
+    content: '\275a\275a';  /*Uncomment this line for pause */
+    /* content: '\25a0'; */ /*Uncomment this line for stop */
+}
+.longread_slider_text{
+    background-size: contain;
+    background-repeat: space;
+}
+
+.mod_longread-slider .owl-prev, .owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block !important;
+    border:0px solid black;
+}
+.mod_longread-slider .owl-prev { left: 10px; }
+.mod_longread-slider .owl-next { right: 10px; }
+.mod_longread-slider .owl-prev i, .owl-next i {
+    font-family: 'FontAwesome' !important;
+    font-style: normal;
+    transform : scale(4); color: #ffffff;
+}
+.mod_longread-slider .owl-prev.disabled i, .owl-next.disabled i {
+    opacity: 0.5;
+    cursor: default;
+}
