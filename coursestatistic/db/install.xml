@@ -1,0 +1,26 @@
+<XMLDB PATH="report/coursestatistic/db" VERSION="20200219" COMMENT="XMLDB file for Moodle blocks/usermanager"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd">
+    <TABLES>
+        <TABLE NAME="coursereport_weights" COMMENT="Main table">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="name" TYPE="text" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="weight" TYPE="float" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="created" TYPE="datetime" NOTNULL="true" SEQUENCE="false" />
+            </FIELDS>
+            <KEYS>
+                <KEY NAME="id" FIELDS="id" TYPE="primary"/>
+            </KEYS>
+        </TABLE>
+        <TABLE NAME="coursereport_weights_history" COMMENT="History of weights">
+            <FIELDS>
+                <FIELD NAME="id" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="true"/>
+                <FIELD NAME="name" TYPE="text" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="weight" TYPE="float" NOTNULL="true" SEQUENCE="false"/>
+                <FIELD NAME="created" TYPE="datetime" NOTNULL="true" SEQUENCE="false" />
+                <FIELD NAME="modified" TYPE="datetime" NOTNULL="true" SEQUENCE="false" />
+            </FIELDS>
+        </TABLE>
+    </TABLES>
+</XMLDB>
